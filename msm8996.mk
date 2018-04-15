@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system
+    libqdMetaData.system \
+    libvulkan
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/calib.cfg
@@ -298,7 +299,7 @@ PRODUCT_COPY_FILES += \
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
-    vndk-sp
+    vndk_package
 
 # Wifi
 PRODUCT_PACKAGES += \
