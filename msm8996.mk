@@ -112,7 +112,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+    Camera2 \
     camera.msm8996 \
     libmm-qcamera \
     mm-qcamera-app
@@ -139,10 +139,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    ZukDoze
 
 # For config.fs
 PRODUCT_PACKAGES += \
