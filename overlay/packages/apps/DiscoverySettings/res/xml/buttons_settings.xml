@@ -69,7 +69,7 @@
 
     <PreferenceCategory
         android:key="home_key"
-        android:title="@string/hardware_keys_home_key_title" >
+        android:title="@string/utouch_settings" >
 
         <ListPreference
             android:key="hardware_keys_home_long_press"
@@ -89,11 +89,11 @@
             android:persistent="false"
             android:dependency="enable_hw_keys" />
 
-    </PreferenceCategory>
+    <!--</PreferenceCategory>
 
     <PreferenceCategory
         android:key="back_key"
-        android:title="@string/hardware_keys_back_key_title" >
+        android:title="@string/hardware_keys_back_key_title" -->
 
         <ListPreference
             android:key="hardware_keys_back_press"
@@ -131,16 +131,16 @@
             android:persistent="false"
             android:dependency="enable_hw_keys" />
 
-    </PreferenceCategory>
+    <!--</PreferenceCategory>
 
     <PreferenceCategory
         android:key="menu_key"
-        android:title="@string/hardware_keys_menu_key_title" >
+        android:title="@string/hardware_keys_menu_key_title" -->
 
         <ListPreference
             android:key="hardware_keys_menu_press"
-            android:dialogTitle="@string/hardware_keys_menu_app_switch_short_press_title"
-            android:title="@string/hardware_keys_menu_app_switch_short_press_title"
+            android:dialogTitle="@string/hardware_keys_menu_short_press_title"
+            android:title="@string/hardware_keys_menu_short_press_title"
             android:entries="@array/hardware_keys_action_single_press_entries"
             android:entryValues="@array/hardware_keys_action_single_press_values"
             android:persistent="false"
@@ -157,23 +157,23 @@
 
         <ListPreference
             android:key="hardware_keys_menu_double_tap"
-            android:dialogTitle="@string/hardware_keys_menu_app_switch_double_tap_title"
-            android:title="@string/hardware_keys_menu_app_switch_double_tap_title"
+            android:dialogTitle="@string/hardware_keys_menu_double_tap_title"
+            android:title="@string/hardware_keys_menu_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false"
             android:dependency="enable_hw_keys" />
 
-    </PreferenceCategory>
+    <!--</PreferenceCategory>
 
     <PreferenceCategory
         android:key="app_switch_key"
-        android:title="@string/hardware_keys_app_switch_key_title" >
+        android:title="@string/hardware_keys_app_switch_key_title" -->
 
         <ListPreference
             android:key="hardware_keys_app_switch_press"
-            android:dialogTitle="@string/hardware_keys_menu_app_switch_short_press_title"
-            android:title="@string/hardware_keys_menu_app_switch_short_press_title"
+            android:dialogTitle="@string/hardware_keys_app_switch_short_press_title"
+            android:title="@string/hardware_keys_app_switch_short_press_title"
             android:entries="@array/hardware_keys_action_single_press_entries"
             android:entryValues="@array/hardware_keys_action_single_press_values"
             android:persistent="false"
@@ -190,8 +190,8 @@
 
         <ListPreference
             android:key="hardware_keys_app_switch_double_tap"
-            android:dialogTitle="@string/hardware_keys_menu_app_switch_double_tap_title"
-            android:title="@string/hardware_keys_menu_app_switch_double_tap_title"
+            android:dialogTitle="@string/hardware_keys_app_switch_double_tap_title"
+            android:title="@string/hardware_keys_app_switch_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false"
