@@ -192,7 +192,7 @@ TARGET_VENDOR_PROP += $(VENDOR_PATH)/vendor.prop
 BOARD_USES_QCOM_HARDWARE := true
 
 # QCOM Power
-TARGET_WLAN_POWER_STAT  := "/d/wlan_wcnss/power_stats"
+TARGET_HAS_NO_WIFI_STATS := true
 
 # Tap to wake node
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
