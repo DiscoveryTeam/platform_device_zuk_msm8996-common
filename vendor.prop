@@ -87,6 +87,7 @@ vidc.enc.dcvs.extra-buff-count=2
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Radio
 telephony.lteOnCdmaDevice=1
